@@ -13,7 +13,11 @@
 <body>
 
     <div id="app">
-
+        <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-chevron-left"></i>
+            <img v-bind:src="obj[indexImmagini.url]" class="mx-3" v-bind:alt="obj[indexImmagini].alt" width="500" height="300">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
     </div>
 
     <!--include Vue-->
